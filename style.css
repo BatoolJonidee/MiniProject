@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    margin:0 20%;
+}
+.container-sec {
+    width:100%;
+    /* display:flex; */
+    /* border: 1px solid black; */
+   
+}
+.header-sec {
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    margin-top:1%;
+}
+.logo-div {
+    display: flex;
+}
+
+#logo-icon {
+    background-color: black;
+    padding: 20% 10%;
+}
+.web-name-div {
+    width:120px;
+}
+h2 {
+    font-family: 'Yellowtail', cursive;
+    padding-top: 10%;
+}
+span {
+    font-family: 'Pathway Gothic One', sans-serif;    
+    font-size: 10px;
+    color: rgb(189, 186, 186);
+
+}
+.icon-sec{
+    align-self: center;
+}
+hr {
+    background-image:url("./bckground_img_hr.png");
+    background-size: contain;
+    height: 10px;
+    border:1px inset  #e3e2e2;
+    margin-top:2%;
+}
+.nav-sec {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.cho-pizza-header{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Pathway Gothic One', sans-serif;
+    padding-bottom: 20px;;
+}
+.posted-time-span {
+    font-family: 'Pathway Gothic One', sans-serif;  
+    font-size: 18px;
+    color: #d3c49f;
+}
+.print-div {
+    margin-right: 5%;
+}
+.print-header {
+    font-family: 'Pathway Gothic One', sans-serif;
+    color:#9fa1a3 ;
+    font-size: 10px;
+    
+}
+.content-sec {
+    color: #cbbea6;
+}
+.chk-divs {
+    background-image:url("./chk-div-bckground.jpeg") ;
+    background-size: contain;
+    display: flex;
+    justify-content: flex-start;
+    padding:1%;
+    color:black;
+    /* font-weight: bold; */
+    font-family: patrick hand, cursive;
+}
+.chk-right-div{
+    margin-left: 2%;
+}
+input:checked +label{
+    text-decoration: line-through;
+}
+.about-sec {
+    display: flex;
+}
+.about-div {
+    width:40%;
+}
+.button-div {
+    margin-top:10%;
+    margin-left: 20%;
+}
+#share-btn{
+    border:3px solid rgb(51, 51, 51);
+    background-color: #d83a56;
+    color: white;
+    padding: 5% 25%;
+}
